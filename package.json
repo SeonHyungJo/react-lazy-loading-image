@@ -55,5 +55,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "homepage": "http://seonhyungjo.github.io/react-lazy-loading-image/"
 }

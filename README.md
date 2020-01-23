@@ -1,13 +1,13 @@
-# react-lazy-image-hooks
+# react-lazy-loading-image
 
-> 
+>
 
-[![NPM](https://img.shields.io/npm/v/react-lazy-image-hooks.svg)](https://www.npmjs.com/package/react-lazy-image-hooks) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-lazy-loading-image.svg)](https://www.npmjs.com/package/react-lazy-loading-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-lazy-image-hooks
+npm install --save react-lazy-loading-image
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-lazy-image-hooks
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-lazy-image-hooks'
+import MyComponent from 'react-lazy-loading-image'
 
 class Example extends React.Component {
   render () {
