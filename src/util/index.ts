@@ -25,7 +25,8 @@ export const lazyImageObj = (() => {
 
         setTimeout(function () {
           lazyImages.forEach((lazyImage: HTMLImageElement) => {
-            if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
+            const { top, bottom } = lazyImage.getBoundingClientRect()
+            if ((top <= window.innerHeight && bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
               console.log(lazyImage)
               lazyImage.src = lazyImage.dataset.src || '';
               lazyImage.srcset = lazyImage.dataset.srcset || '';
@@ -57,4 +58,4 @@ export const lazyImageObj = (() => {
       }
     }
   }
-}) ()
+})()
