@@ -1,6 +1,6 @@
 {
-  "short_name": "react-lazy-image-hooks",
-  "name": "react-lazy-image-hooks",
+  "short_name": "react-lazy-loading-image",
+  "name": "react-lazy-loading-image",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

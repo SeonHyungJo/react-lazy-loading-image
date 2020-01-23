@@ -1,6 +1,6 @@
 {
   "name": "react-lazy-loading-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "seonhyungjo",
   "license": "MIT",
@@ -55,6 +55,5 @@
   },
   "files": [
     "dist"
-  ],
-  "homepage": "http://seonhyungjo.github.io/react-lazy-loading-image/"
+  ]
 }

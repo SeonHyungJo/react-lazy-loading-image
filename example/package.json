@@ -1,6 +1,6 @@
 {
-  "name": "react-lazy-image-hooks-example",
-  "homepage": "https://seonhyungjo.github.io/react-lazy-image-hooks",
+  "name": "react-lazy-loading-image-example",
+  "homepage": "https://seonhyungjo.github.io/react-lazy-loading-image",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -8,7 +8,7 @@
     "prop-types": "^15.6.2",
     "react": "link:../node_modules/react'",
     "react-dom": "^16.4.1",
-    "react-lazy-image-hooks": "link:..",
+    "react-lazy-loading-image": "link:..",
     "react-scripts": "3.3.0"
   },
   "scripts": {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-lazy-image-hooks'
+import ExampleComponent from 'react-lazy-loading-image'
 
 export default class App extends Component {
   render () {
