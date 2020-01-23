@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-lazy-image-hooks/static/css/main.a2b7b0b6.chunk.css",
-    "main.js": "/react-lazy-image-hooks/static/js/main.f7ef5df7.chunk.js",
-    "main.js.map": "/react-lazy-image-hooks/static/js/main.f7ef5df7.chunk.js.map",
-    "runtime-main.js": "/react-lazy-image-hooks/static/js/runtime-main.5d6ebc87.js",
-    "runtime-main.js.map": "/react-lazy-image-hooks/static/js/runtime-main.5d6ebc87.js.map",
-    "static/js/2.e4d0f532.chunk.js": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js",
-    "static/js/2.e4d0f532.chunk.js.map": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js.map",
-    "index.html": "/react-lazy-image-hooks/index.html",
-    "precache-manifest.e2d80f26531dcc1a04b6a0a46ffe2080.js": "/react-lazy-image-hooks/precache-manifest.e2d80f26531dcc1a04b6a0a46ffe2080.js",
-    "service-worker.js": "/react-lazy-image-hooks/service-worker.js",
-    "static/css/main.a2b7b0b6.chunk.css.map": "/react-lazy-image-hooks/static/css/main.a2b7b0b6.chunk.css.map",
-    "static/js/2.e4d0f532.chunk.js.LICENSE": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js.LICENSE"
+    "main.css": "/react-lazy-loading-image/static/css/main.a2b7b0b6.chunk.css",
+    "main.js": "/react-lazy-loading-image/static/js/main.fc54222e.chunk.js",
+    "main.js.map": "/react-lazy-loading-image/static/js/main.fc54222e.chunk.js.map",
+    "runtime-main.js": "/react-lazy-loading-image/static/js/runtime-main.fc92b8d1.js",
+    "runtime-main.js.map": "/react-lazy-loading-image/static/js/runtime-main.fc92b8d1.js.map",
+    "static/js/2.547a6369.chunk.js": "/react-lazy-loading-image/static/js/2.547a6369.chunk.js",
+    "static/js/2.547a6369.chunk.js.map": "/react-lazy-loading-image/static/js/2.547a6369.chunk.js.map",
+    "index.html": "/react-lazy-loading-image/index.html",
+    "precache-manifest.2152dfd41f3a073071c3ae396f4eb818.js": "/react-lazy-loading-image/precache-manifest.2152dfd41f3a073071c3ae396f4eb818.js",
+    "service-worker.js": "/react-lazy-loading-image/service-worker.js",
+    "static/css/main.a2b7b0b6.chunk.css.map": "/react-lazy-loading-image/static/css/main.a2b7b0b6.chunk.css.map",
+    "static/js/2.547a6369.chunk.js.LICENSE": "/react-lazy-loading-image/static/js/2.547a6369.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d6ebc87.js",
-    "static/js/2.e4d0f532.chunk.js",
+    "static/js/runtime-main.fc92b8d1.js",
+    "static/js/2.547a6369.chunk.js",
     "static/css/main.a2b7b0b6.chunk.css",
-    "static/js/main.f7ef5df7.chunk.js"
+    "static/js/main.fc54222e.chunk.js"
   ]
 }
