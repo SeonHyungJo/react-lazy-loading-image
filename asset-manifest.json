@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-lazy-image-hooks/static/css/main.a2b7b0b6.chunk.css",
+    "main.js": "/react-lazy-image-hooks/static/js/main.f7ef5df7.chunk.js",
+    "main.js.map": "/react-lazy-image-hooks/static/js/main.f7ef5df7.chunk.js.map",
+    "runtime-main.js": "/react-lazy-image-hooks/static/js/runtime-main.5d6ebc87.js",
+    "runtime-main.js.map": "/react-lazy-image-hooks/static/js/runtime-main.5d6ebc87.js.map",
+    "static/js/2.e4d0f532.chunk.js": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js",
+    "static/js/2.e4d0f532.chunk.js.map": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js.map",
+    "index.html": "/react-lazy-image-hooks/index.html",
+    "precache-manifest.e2d80f26531dcc1a04b6a0a46ffe2080.js": "/react-lazy-image-hooks/precache-manifest.e2d80f26531dcc1a04b6a0a46ffe2080.js",
+    "service-worker.js": "/react-lazy-image-hooks/service-worker.js",
+    "static/css/main.a2b7b0b6.chunk.css.map": "/react-lazy-image-hooks/static/css/main.a2b7b0b6.chunk.css.map",
+    "static/js/2.e4d0f532.chunk.js.LICENSE": "/react-lazy-image-hooks/static/js/2.e4d0f532.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d6ebc87.js",
+    "static/js/2.e4d0f532.chunk.js",
+    "static/css/main.a2b7b0b6.chunk.css",
+    "static/js/main.f7ef5df7.chunk.js"
+  ]
+}
