@@ -1,27 +1,50 @@
 import React, { useRef, useEffect } from "react";
-import { lazyImageObj } from './util'
-import styles from "./styles.css";
+import { lazyImageObj } from "./util";
 
-export type Props = { src?: string; srcSet?: string; dataSrc?: string };
+interface Props {
+  src: string;
+  main?: boolean;
+  id?: string;
+  className?: string;
+  alt?: string;
+  sizes?: any;
+  srcset?: string;
+  style?: object;
+  height?: number;
+  width?: number;
+  border?: string;
+}
 
-const LazyHooks = ({ src, srcSet, dataSrc }: Props) => {
-  const myRef = useRef<HTMLImageElement>(null);
+const defaultStyle = {
+  background: "#A4A4A4",
+  width: "300px",
+  height: "300px",
+  margin: "1px auto",
+  border: "0"
+};
+
+const LazyImg = (props: Props) => {
+  const { src, main = false, style } = props;
+  const imgRef = useRef<HTMLImageElement>(null);
+  const imgProps = {
+    ...props,
+    src: main ? src : '',
+    style: style ? { ...defaultStyle, ...style } : {},
+    "data-src": !main && src
+  };
+
+  !main && delete imgProps.src;
 
   useEffect(() => {
-    myRef !== null && !src && lazyImageObj.observe(myRef.current as Element)
-  }, [myRef])
+    imgRef !== null && !main && lazyImageObj.observe(imgRef.current as Element);
+  }, [imgRef]);
 
   return (
-    <>
-      <img
-        src={src}
-        data-src={dataSrc}
-        data-srcset={srcSet}
-        ref={myRef}
-        className={styles.img}
-      />
-    </>
+    <img
+      ref={imgRef}
+      {...imgProps}
+    />
   );
 };
 
-export default LazyHooks;
+export default LazyImg;
