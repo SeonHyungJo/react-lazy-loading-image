@@ -1,23 +1,27 @@
-/**
- * @class ExampleComponent
- */
+import React, { useRef, useEffect } from "react";
+import { lazyImageObj } from './util'
+import styles from "./styles.css";
 
-import * as React from 'react'
+export type Props = { src?: string; srcSet?: string; dataSrc?: string };
 
-import styles from './styles.css'
+const LazyHooks = ({ src, srcSet, dataSrc }: Props) => {
+  const myRef = useRef<HTMLImageElement>(null);
 
-export type Props = { text: string }
+  useEffect(() => {
+    myRef !== null && !src && lazyImageObj.observe(myRef.current as Element)
+  }, [myRef])
 
-export default class ExampleComponent extends React.Component<Props> {
-  render() {
-    const {
-      text
-    } = this.props
+  return (
+    <>
+      <img
+        src={src}
+        data-src={dataSrc}
+        data-srcset={srcSet}
+        ref={myRef}
+        className={styles.img}
+      />
+    </>
+  );
+};
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export default LazyHooks;

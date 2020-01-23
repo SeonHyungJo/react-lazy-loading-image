@@ -1,10 +1,10 @@
 {
-  "name": "react-lazy-image-hooks",
+  "name": "react-lazy-loading-image",
   "version": "0.0.1",
   "description": "",
   "author": "seonhyungjo",
   "license": "MIT",
-  "repository": "seonhyungjo/react-lazy-image-hooks",
+  "repository": "seonhyungjo/react-lazy-loading-image",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -33,9 +33,12 @@
     "@types/react": "^16.3.13",
     "@types/react-dom": "^16.0.5",
     "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "8.0.6",
     "babel-runtime": "^6.26.0",
     "cross-env": "6.0.3",
     "gh-pages": "2.2.0",
+    "jest": "24.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts-ts": "3.1.0",
@@ -47,7 +50,8 @@
     "rollup-plugin-postcss": "2.0.4",
     "rollup-plugin-typescript2": "0.25.3",
     "rollup-plugin-url": "3.0.1",
-    "typescript": "3.7.5"
+    "typescript": "3.7.5",
+    "webpack": "4.41.2"
   },
   "files": [
     "dist"
