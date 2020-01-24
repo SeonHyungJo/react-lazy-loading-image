@@ -20,12 +20,15 @@ npm install --save react-lazy-loading-image
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-lazy-loading-image'
+import LazyImg from 'react-lazy-loading-image'
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent src={}/>
+      // Main Page init image
+      <img src={address}/>
+      // Use LazyImg Components for lazy loading img
+      <LazyImg src={"https://seonhyungjo.github.io/react-lazy-loading-image/"}/>
     )
   }
 }
