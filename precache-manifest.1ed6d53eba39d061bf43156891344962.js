@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17d188a0e3df7fee73c0575a5ce12d90",
+    "revision": "23f86b72f2e3e3230f5c2309946df8f6",
     "url": "/react-lazy-loading-image/index.html"
   },
   {
-    "revision": "a0097b2786bd306ade1f",
+    "revision": "4861b1b7a0038e9f5b76",
     "url": "/react-lazy-loading-image/static/css/main.8fbe1d88.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-lazy-loading-image/static/js/2.9c2517e1.chunk.js.LICENSE"
   },
   {
-    "revision": "a0097b2786bd306ade1f",
-    "url": "/react-lazy-loading-image/static/js/main.ec7df2eb.chunk.js"
+    "revision": "4861b1b7a0038e9f5b76",
+    "url": "/react-lazy-loading-image/static/js/main.bd37dcdf.chunk.js"
   },
   {
     "revision": "76e3b5eb8b7fef1cc2f9",
