@@ -1,9 +1,8 @@
-import React, { useRef, useEffect } from "react";
-import { lazyImageObj } from "./util";
+import React from "react";
+import useIntersect from "use-intersect";
 
 interface Props {
   src: string;
-  main?: boolean;
   id?: string;
   className?: string;
   alt?: string;
@@ -24,27 +23,28 @@ const defaultStyle = {
 };
 
 const LazyImg = (props: Props) => {
-  const { src, main = false, style } = props;
-  const imgRef = useRef<HTMLImageElement>(null);
+  const { src, style} = props;
+
+  const imgRef = useIntersect((targetElement: HTMLImageElement) => {
+    targetElement.src = targetElement.dataset.src || "";
+  });
+
+  const includeKeys = Object.keys(props).filter((key) => {
+    return !['src'].includes(key)
+  })
+
+  const customProps = includeKeys.reduce((acc, key) => {
+    acc[key] = props[key]
+    return acc
+  }, {})
+
   const imgProps = {
-    ...props,
-    src: main ? src : '',
-    style: style ? { ...defaultStyle, ...style } : {},
-    "data-src": !main && src
+    ...customProps,
+    "data-src" : src,
+    style: style ? { ...defaultStyle, ...style } : {}
   };
 
-  !main && delete imgProps.src;
-
-  useEffect(() => {
-    imgRef !== null && !main && lazyImageObj.observe(imgRef.current as Element);
-  }, [imgRef]);
-
-  return (
-    <img
-      ref={imgRef}
-      {...imgProps}
-    />
-  );
+  return <img ref={imgRef} {...imgProps} />;
 };
 
 export default LazyImg;

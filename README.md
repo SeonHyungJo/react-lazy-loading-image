@@ -40,7 +40,7 @@ Image component working similar with standard `img` tag and with the following p
 | Prop | Type | Required | Description |
 | :--- | :--- | :------: | :---------- |
 | `src` | string |    ✓     | The image source |
-| `main` | boolean | | Set Main Image|
+| `lazy` | boolean | | Set lazy image|
 | `id` | string | | Element Id |
 | `className` | string | | Element Class Name |
 | `alt` | string | | Image alt |
