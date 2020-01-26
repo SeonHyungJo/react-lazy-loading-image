@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://seonhyungjo.github.io/react-lazy-loading-image/"><img width="140" src="./static/lazy-logo.png" alt="React Lazy Img Logo" /></a>
 
-<h1 align="center">React Lazy Img</h1>
+<h1 align="center">React Lazy Image Component</h1>
 
 <div align="center">
 
@@ -40,10 +40,11 @@ class Example extends React.Component {
 
 Image component working similar with standard `img` tag and with the following props.
 
+**This is not General Image Component**
+
 | Prop | Type | Required | Description |
 | :--- | :--- | :------: | :---------- |
 | `src` | string |    ✓     | The image source |
-| `lazy` | boolean | | Set lazy image|
 | `id` | string | | Element Id |
 | `className` | string | | Element Class Name |
 | `alt` | string | | Image alt |
@@ -53,7 +54,6 @@ Image component working similar with standard `img` tag and with the following p
 | `height` | number | | Image Default height |
 | `width` | number | | Image Default width |
 | `border` | string | | Image Default border |
-
 
 ## License
 
