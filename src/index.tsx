@@ -1,7 +1,7 @@
 import React from "react";
 import useIntersect from "use-intersect";
 
-interface Props {
+export interface Props {
   src: string;
   id?: string;
   className?: string;
