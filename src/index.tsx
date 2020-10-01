@@ -27,7 +27,7 @@ const LazyImg = (props: Props) => {
 
   const imgRef = useIntersect((targetElement: HTMLImageElement) => {
     targetElement.src = targetElement.dataset.src || "";
-  });
+  }, {});
 
   const includeKeys = Object.keys(props).filter((key) => {
     return !['src'].includes(key)
